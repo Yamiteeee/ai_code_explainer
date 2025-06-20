@@ -31,16 +31,16 @@ To run this project locally and leverage Google's AI capabilities, follow these 
 ### Setup Steps
 
 1.  **Clone the repository:**
-    \`\`\`bash
-    git clone https://github.com/YourUsername/ai_code_explainer.git
+    ```bash
+    git clone https://github.com/Yamiteeee/ai_code_explainer.git
     cd ai_code_explainer
-    \`\`\`
+    ```
     *(Replace \`YourUsername\` and \`ai_code_explainer\` with your actual GitHub username and repository name)*
 
 2.  **Install Flutter dependencies:**
-    \`\`\`bash
+    ```bash
     flutter pub get
-    \`\`\`
+    ```
 
 3.  **Firebase Project Setup:**
     This app uses Firebase for integrating with Google's AI models.
@@ -51,9 +51,9 @@ To run this project locally and leverage Google's AI capabilities, follow these 
 
     * **b. Run FlutterFire Configure:**
         * Open your terminal in the root of your Flutter project (\`ai_code_explainer\`) and run:
-            \`\`\`bash
+            ```bash
             flutterfire configure
-            \`\`\`
+           ```
         * Follow the prompts. Select your newly created Firebase project.
         * Choose the platforms you want to configure (Android, iOS, web, etc.). This command will automatically generate the \`lib/firebase_options.dart\` file with your project's configuration.
 
@@ -66,21 +66,20 @@ To run this project locally and leverage Google's AI capabilities, follow these 
     1.  Generate an API key in Google AI Studio.
     2.  At the root of your \`ai_code_explainer\` project, create a new file named \`.env\`.
     3.  Add your Gemini API key to this file in the following format:
-        \`\`\`
+        ```
         GEMINI_API_KEY=YOUR_GENERATED_API_KEY_HERE
-        \`\`\`
+        ```
         **Replace \`YOUR_GENERATED_API_KEY_HERE\` with your actual key.**
     4.  **Important Security:** Ensure \`.env\` is included in your \`.gitignore\` file to prevent it from being committed to version control:
-        \`\`\`
+        ```
         # Environment variables
         .env
-        \`\`\`
-
+        ```
 5.  **Run the Application:**
     Connect a device or start an emulator/simulator, then run the app:
-    \`\`\`bash
+    ```bash
     flutter run
-    \`\`\`
+    ```
 
 ## How to Use
 

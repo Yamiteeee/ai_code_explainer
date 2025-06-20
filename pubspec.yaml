@@ -1,0 +1,29 @@
+name: ai_code_explainer # Ensure this matches your project name
+description: An app to explain code from images using ML Kit and Gemini AI.
+
+publish_to: 'none' # Ensures this package is not accidentally published to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure compatibility with newer Dart/Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2 # For picking images from gallery/camera
+  google_mlkit_text_recognition: ^0.12.0 # For OCR
+  google_generative_ai: ^0.2.2 # For Gemini API
+  flutter_dotenv: ^5.1.0 # For securely loading API keys from .env file
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Add assets section to include the .env file for flutter_dotenv
+flutter:
+  uses-material-design: true
+  assets:
+    - .env

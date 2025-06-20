@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Create or overwrite README.md with the specified content
 cat > README.md <<EOF

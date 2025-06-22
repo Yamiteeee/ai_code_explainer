@@ -1,6 +1,4 @@
 
-# Create or overwrite README.md with the specified content
-cat > README.md <<EOF
 # AI Code Explainer
 
 A Flutter project designed to capture or select images containing code, perform Optical Character Recognition (OCR) to extract the text, and then use Google's Gemini AI to provide clear, concise explanations. The app displays the extracted code with syntax highlighting and its explanation in a user-friendly, scrollable interface.
@@ -34,7 +32,7 @@ To run this project locally and leverage Google's AI capabilities, follow these 
     git clone https://github.com/Yamiteeee/ai_code_explainer.git
     cd ai_code_explainer
     ```
-    *(Replace \`YourUsername\` and \`ai_code_explainer\` with your actual GitHub username and repository name)*
+  
 
 2.  **Install Flutter dependencies:**
     ```bash
